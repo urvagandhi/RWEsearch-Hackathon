@@ -1,0 +1,10 @@
+# This file ensures the data directory is tracked by git
+# Place your healthcare data files here:
+# - DE1_0_2008_Beneficiary_Summary_File_Sample_1.csv
+# - DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv
+# - DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv
+# - DE1_0_2008_to_2010_Inpatient_Claims_Sample_1.csv
+# - DE1_0_2008_to_2010_Outpatient_Claims_Sample_1.csv
+# - condition_occurrence.csv
+# - drug_exposure.csv
+# - person.csv

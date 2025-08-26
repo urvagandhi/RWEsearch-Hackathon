@@ -1,0 +1,3 @@
+# This file ensures the saved_models directory is tracked by git
+# Trained models will be automatically saved here by the application
+# The smart loading feature will discover and load models from this directory

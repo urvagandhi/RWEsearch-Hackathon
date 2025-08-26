@@ -1,0 +1,47 @@
+# RWEsearch Healthcare Analytics Project - .gitignore
+# ===================================================
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual environments for this project
+.venv/
+venv/
+
+
+# Streamlit specific for RWEsearch dashboard
+# ===========================================
+.streamlit/config.toml
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+
+# Temporary processing files for healthcare data
+# ===============================================
+temp_beneficiary_data/
+temp_claims_data/
+processed_features/
+feature_engineering_cache/
+readmission_predictions/
+model_evaluation_results/
+
+
+# IDE and editor files for this project
+# ======================================
+.vscode/settings.json
+.vscode/launch.json
+
+# Operating system files
+# =======================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Docker specific for RWEsearch
+# ==============================
+.docker/
+docker-volumes/
+rwesearch_data_volume/
